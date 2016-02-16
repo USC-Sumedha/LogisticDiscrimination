@@ -1,4 +1,4 @@
-% Online learning algorithm using gradient discent for Linear Discrimination
+% Online learning algorithm using gradient discent for Logistic Discrimination
 function[Efnmin,wt_min,Efn] = LD_OnlineAlg(filename,lr,Max_RUN)
 [output] = readtable(filename);
 features = length(output.Properties.VariableNames)-1;
