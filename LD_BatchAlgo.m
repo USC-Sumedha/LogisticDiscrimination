@@ -1,4 +1,4 @@
-% Batch learning algorithm using gradient discent for Linear Discrimination
+% Batch learning algorithm using gradient discent for Logistic Discrimination
 function[Jmin,theta_N,J] = LD_BatchAlgo(filename,lr,MAX_ITR)
 [output] = readtable(filename);
     features = length(output.Properties.VariableNames)-1;
