@@ -11,7 +11,7 @@ r = cell2mat(table2cell(class)); % output
 m = length(r); % size of dataset
 
 % learning rate
-	lr = lr;
+   %lr = lr;
    a = -0.01;
    b = 0.01;
     weight = (b-a).*rand(features,1) + a;
